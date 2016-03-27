@@ -34,6 +34,7 @@ local function initGLView()
 end
 
 local function main()
+    -- git test
     collectgarbage("collect")
     -- avoid memory leak
     collectgarbage("setpause", 100)
